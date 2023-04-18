@@ -26,6 +26,7 @@ public class Hotel {
     // 생성자 주입
     @Autowired // 컨테이너에 등록된 객체를 알아서 주입 좀 해줘
     public Hotel(Restaurant restaurant, Chef headChef) {
+
         this.restaurant = restaurant;
         this.headChef = headChef;
     }
